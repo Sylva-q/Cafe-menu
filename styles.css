@@ -1,3 +1,22 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
 h1, h2, p {
   text-align:center;
+}
+/*
+#menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+}
+*Type and id(#) selectors can be used to style elements, but it is more commen to use 'class selecter' by a name with a dot infront (.class-name), as shown below*
+*Remember no matter id or class, both need to be defined clearly in the index.html*
+*/
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
 }
