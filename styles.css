@@ -1,6 +1,23 @@
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
 }
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
 h1, h2, p {
   text-align:center;
 }
@@ -19,12 +36,34 @@ h1, h2, p {
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
-}
-.item p {
-  display: inline-block;
+  padding: 20px;
+  max-width: 500px;
+  /*use max-width so the distance between flavor and price is not too wide on large screen*/
 }
 
-.flavor {
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+h1, h2 {
+  font-family: Impact,serif;
+  /*here "serif" separated by a comma from the main front is a fallback value, which is used in instances where the initial is not found/available.*/
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,.dessert {
   text-align: left;
   width: 75%;
 }
@@ -32,4 +71,30 @@ h1, h2, p {
 .price {
   text-align: right;
   width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
